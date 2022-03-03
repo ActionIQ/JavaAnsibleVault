@@ -133,3 +133,14 @@ The library handles only the newest (version 1.1) format of the vaults. It will 
 _**Ansible uses 256 bits keys to handle encryption and decryption of the vaults, this means that
 in order to handle these vaults you will need to install the unrestricted policy files from Oracle.
 You have been warned.**_
+
+## AIQ Development
+
+We publish this project to Maven Central using Sonatype
+
+To test use: `mvn test`<br/>
+To deploy use: `mvn deploy`
+
+For more info see the [documentation](https://central.sonatype.org/publish/publish-maven/)
+
+See [here](https://repo1.maven.org/maven2/co/actioniq/vault-utilities/) for published artifacts

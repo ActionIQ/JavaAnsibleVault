@@ -3,3 +3,5 @@
 *.iws
 logs
 target
+.idea
+/dependency-reduced-pom.xml
